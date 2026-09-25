@@ -1,0 +1,25 @@
+# Python / Django
+__pycache__/
+*.py[cod]
+*.sqlite3
+db.sqlite3
+
+# Virtual Environment - tumhara env/ folder push nahi hoga
+env/
+venv/
+.venv/
+
+# Env variables
+.env
+
+# Static / Media
+media/
+staticfiles/
+
+# IDE
+.vscode/
+.idea/
+
+# OS - Windows
+Desktop.ini
+Thumbs.db
