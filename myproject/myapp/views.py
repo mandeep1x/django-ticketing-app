@@ -5,3 +5,5 @@ from django.http import HttpResponse
 def events_list(response):
     return HttpResponse("Hello World")
 
+def items_list(response):
+    return HttpResponse("<h1>This is an Item view</h1>")    
