@@ -12,4 +12,4 @@ class Event(models. Model):
     price = models. IntegerField()
     venue = models. CharField(max_length=200)
     date_time = models. DateTimeField()
-    capcity = models. PositiveIntegerField()
+    capacity = models. PositiveIntegerField()
